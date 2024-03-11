@@ -1,0 +1,249 @@
+body {
+  background-color: #B7B4B4;
+  margin: 0;
+  padding: 0;
+}
+.FirstSection {
+  background-image: url('../img/bgImg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo img {
+  width: 90px;
+  height: 90px;
+}
+.navbar img {
+  width: 30px;
+  height: 30px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 25px;
+  font-family: 'League Gothic', sans-serif;
+}
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+.Main {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.Main a {
+  display: block;
+  font-size: 96px;
+  font-family: 'League Gothic', sans-serif;
+}
+.Main p {
+  font-size: 25px;
+  font-family: 'League Gothic', sans-serif;
+}
+.Main button {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(88, 129, 58, 0.8)), to(rgba(28, 48, 13, 0.8)));
+  background: linear-gradient(to right, rgba(88, 129, 58, 0.8), rgba(28, 48, 13, 0.8));
+  border-radius: 60px;
+  padding: 5px 80px;
+  color: #ffffff;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 25px;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  -webkit-transition: background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.Main button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#1c300d), to(#58813a));
+  background: linear-gradient(to right, #1c300d, #58813a);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.categorysec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.firstContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 190px;
+}
+.firstContainer p {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 60px;
+  text-shadow: 0 4px 6px #696969;
+}
+.firstContainer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.firstContainer div a {
+  margin-right: 20px;
+}
+.firstContainer div img {
+  padding: 10px;
+  width: 350px;
+  height: 235px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.firstContainer div img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.imgContainer {
+  width: 790px;
+  height: 950px;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #B7B4B4;
+}
+.Contact img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.Contact h3 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.098);
+  margin-bottom: 60px;
+}
+.Contact address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+.Contact .addressa,
+.Contact .contacty {
+  margin: 0 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+}
+.Contact address div img {
+  width: 32px;
+  height: 32px;
+  margin: 0px 20px 0px 0px;
+}
+.Contact address div span {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
+}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #a3a2a2;
+  padding: 40px 0;
+}
+footer h2 {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+footer span {
+  color: #1F370D;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 245px;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+footer a {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,231 @@
+@background-color: #B7B4B4;
+@main-bg: linear-gradient(to right, rgba(88, 129, 58, 0.8), rgba(28, 48, 13, 0.8));
+@hover-bg: linear-gradient(to right, rgba(28, 48, 13, 1), rgba(88, 129, 58, 1));
+@category-shadow: 0 4px 6px #696969;
+@footer-bg: #a3a2a2;
+@footer-text: rgb(0, 0, 0);
+@footer-highlight: #1F370D;
+
+// Define fonts
+@font-family: 'League Gothic', sans-serif;
+
+body {
+    background-color: @background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.FirstSection {
+    background-image: url('../img/bgImg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: @font-family;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.Main {
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    a {
+        display: block;
+        font-size: 96px;
+        font-family: @font-family;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: @font-family;
+    }
+
+    button {
+        background: @main-bg;
+        border-radius: 60px;
+        padding: 5px 80px;
+        color: #ffffff;
+        font-family: @font-family;
+        font-size: 25px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: none;
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+        &:hover {
+            background: @hover-bg;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.categorysec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+
+    p {
+        font-family: @font-family;
+        font-size: 60px;
+        text-shadow: @category-shadow;
+    }
+
+    div {
+        display: flex;
+
+        a {
+            margin-right: 20px;
+        }
+
+        img {
+            padding: 10px;
+            width: 350px;
+            height: 235px;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.imgContainer {
+    width: 790px;
+    height: 950px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: @background-color;
+
+    img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        font-family: @font-family;
+        font-size: 28px;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.098);
+        margin-bottom: 60px;
+    }
+
+    address {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .addressa,
+    .contacty {
+        margin: 0 20px;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 20px;
+        width: 400px;
+    }
+
+    address div img {
+        width: 32px;
+        height: 32px;
+        margin: 0px 20px 0px 0px;
+    }
+
+    address div span {
+        font-family: @font-family;
+        font-size: 24px;
+        text-decoration: none;
+        color: #333;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: @footer-bg;
+    padding: 40px 0;
+
+    h2 {
+        color: @footer-text;
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    span {
+        color: @footer-highlight;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 245px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+
+    a {
+        font-family: @font-family;
+        font-size: 24px;
+        text-decoration: none;
+        color: #000000;
+        margin-left: 100px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
